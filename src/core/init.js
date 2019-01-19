@@ -53,11 +53,6 @@ var rootjQuery,
 
 					// Option to run scripts is true for back-compat
 					// Intentionally let the error be thrown if parseHTML is not present
-					jQuery.merge( this, jQuery.parseHTML(
-						match[ 1 ],
-						context && context.nodeType ? context.ownerDocument || context : document,
-						true
-					) );
 
 					// HANDLE: $(html, props)
 					if ( rsingleTag.test( match[ 1 ] ) && jQuery.isPlainObject( context ) ) {

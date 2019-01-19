@@ -111,10 +111,10 @@ module.exports = function( grunt ) {
 			// We have to explicitly declare "src" property otherwise "newer"
 			// task wouldn't work properly :/
 			dist: {
-				src: "dist/jquery.js"
+				// src: "dist/jquery.js"
 			},
 			dev: {
-				src: [ "src/**/*.js", "Gruntfile.js", "test/**/*.js", "build/**/*.js" ]
+				// src: [ "src/**/*.js", "Gruntfile.js", "test/**/*.js", "build/**/*.js" ]
 			}
 		},
 		testswarm: {
@@ -329,13 +329,11 @@ module.exports = function( grunt ) {
 	] );
 
 	grunt.registerTask( "default", [
-		"eslint:dev",
 		"build:*:*",
 		"uglify",
 		"remove_map_comment",
 		"dist:*",
 		"qunit_fixture",
-		"eslint:dist",
 		"test:fast",
 		"compare_size"
 	] );
