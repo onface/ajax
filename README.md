@@ -14,6 +14,8 @@ yarn add @onface/ajax
 
 ```html
 <script src="https://unpkg.com/@onface/ajax@0.1.0/ajax.js"></script>
+<!-- or -->
+<script src="https://unpkg.com/@onface/ajax@0.1.0/ajax.min.js"></script>
 ```
 
 ## 使用
