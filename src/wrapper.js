@@ -1,5 +1,8 @@
 /* eslint-disable no-unused-vars*/
 /*!
+ * @onface/ajax
+ * https://github.com/onface/ajax
+ *
  * jQuery JavaScript Library v@VERSION
  * https://jquery.com/
  *
