@@ -1,0 +1,6 @@
+{
+    "name": "@onface/ajax",
+    "main": "ajax.js",
+    "version": "0.1.0",
+    "description": "从jQuery 中提取出的 jQuery.ajax"
+}

@@ -8,16 +8,19 @@
 
 ## 安装
 
-```js
+```shell
 yarn add @onface/ajax
 ```
 
-<script src="https://unpkg.com/@onface/ajax/ajax.js"></script>
+```html
+<script src="https://unpkg.com/@onface/ajax@0.1.0/ajax.js"></script>
+```
 
 ## 使用
 
 ```js
 var $ = require("@onface/ajax")
+// or global window.$ or window.ajax
 $.ajax({
     type: 'get',
     url: 'https://echo.onface.live/onface/echo/mock/list',
